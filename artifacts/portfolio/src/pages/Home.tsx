@@ -5,6 +5,7 @@ import { FaInstagram, FaLinkedin, FaPinterest } from "react-icons/fa";
 import { SiAdobeaftereffects, SiAdobeillustrator, SiAdobepremierepro, SiAdobephotoshop, SiCanva } from "react-icons/si";
 import { FiArrowRight, FiMail, FiPhone, FiMapPin, FiSend } from "react-icons/fi";
 import { Video, Palette, Monitor } from "lucide-react";
+import profileImg from "@assets/2.png";
 import aeLogo from "@assets/AE_1778679475633.png";
 import aiLogo from "@assets/AI_1778679475633.png";
 import prLogo from "@assets/PR_1778679475634.png";
@@ -164,7 +165,7 @@ export default function Home() {
                 >
                   <div className={`rounded-[3rem] overflow-hidden w-72 h-80 md:w-96 md:h-[500px] ${!imageLoaded ? "bg-gray-200 animate-pulse" : ""}`}>
                     <img
-                      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80"
+                      src={profileImg}
                       alt="Agung Maghribi"
                       className={`w-full h-full object-cover transition-opacity duration-500 ${imageLoaded ? "opacity-100" : "opacity-0"}`}
                       onLoad={() => setImageLoaded(true)}
