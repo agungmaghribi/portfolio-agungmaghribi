@@ -155,7 +155,7 @@ export default function Home() {
               >
                 <div className="absolute inset-0 rounded-[3rem] bg-gold/10 blur-3xl scale-110" />
                 <div className="absolute -inset-3 rounded-[3rem] border-2 border-gold/20 rotate-3" />
-                <div className="absolute -inset-6 rounded-[3rem] border border-gold/10 -rotate-3 ml-[0px] mr-[0px] pl-[0px] pr-[0px]" />
+                <div className="absolute -inset-6 rounded-[3rem] border border-gold/10 -rotate-3" />
 
                 <motion.div
                   animate={{ y: [0, -8, 0] }}
@@ -166,7 +166,7 @@ export default function Home() {
                     <img
                       src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80"
                       alt="Agung Maghribi"
-                      className={`w-full h-full object-cover transition-opacity duration-500 pl-[0px] pr-[0px] ml-[-1px] mr-[-1px] ${imageLoaded ? "opacity-100" : "opacity-0"}`}
+                      className={`w-full h-full object-cover transition-opacity duration-500 ${imageLoaded ? "opacity-100" : "opacity-0"}`}
                       onLoad={() => setImageLoaded(true)}
                       data-testid="hero-profile-img"
                     />
