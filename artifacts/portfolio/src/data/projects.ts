@@ -4,28 +4,45 @@ export const videoProjects = [
     title: "Cinematic Travel Vlog",
     description: "A stunning journey through the mountains of Kyoto.",
     thumbnail: "https://images.unsplash.com/photo-1518131672697-613becd4fab5?w=800&q=80",
-    url: "https://youtube.com/watch?v=dummy1"
+    url: "https://youtube.com/watch?v=dummy1",
+    format: "landscape" as const,
+    platform: "YouTube"
   },
   {
     id: 2,
     title: "Commercial Product Shoot",
     description: "High-end product videography for a luxury watch brand.",
     thumbnail: "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=800&q=80",
-    url: "https://youtube.com/watch?v=dummy2"
+    url: "https://youtube.com/watch?v=dummy2",
+    format: "landscape" as const,
+    platform: "YouTube"
   },
   {
     id: 3,
     title: "Music Video Production",
     description: "Creative direction and editing for an indie artist.",
     thumbnail: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800&q=80",
-    url: "https://youtube.com/watch?v=dummy3"
+    url: "https://youtube.com/watch?v=dummy3",
+    format: "landscape" as const,
+    platform: "YouTube"
   },
   {
     id: 4,
     title: "Documentary Short",
     description: "Award-winning short documentary about local artisans.",
     thumbnail: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&q=80",
-    url: "https://youtube.com/watch?v=dummy4"
+    url: "https://youtube.com/watch?v=dummy4",
+    format: "landscape" as const,
+    platform: "YouTube"
+  },
+  {
+    id: 5,
+    title: "Street Style Reels",
+    description: "Urban fashion and street photography compiled into a vertical cinematic reel.",
+    thumbnail: "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80",
+    url: "https://instagram.com/reel/dummy5",
+    format: "reels" as const,
+    platform: "Instagram"
   }
 ];
 
