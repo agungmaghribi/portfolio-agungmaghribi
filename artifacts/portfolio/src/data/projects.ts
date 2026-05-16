@@ -2,7 +2,7 @@ export const videoProjects = [
   {
     id: 1,
     title: "Cinematic Travel Vlog",
-    thumbnail: "https://images.unsplash.com/photo-1518131672697-613becd4fab5?w=800&q=80",
+    thumbnail: "/yt1.webp",
     url: "https://youtube.com/watch?v=dummy1",
   },
   {
