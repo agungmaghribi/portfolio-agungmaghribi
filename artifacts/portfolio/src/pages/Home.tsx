@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import { Link } from "wouter";
 import { FaInstagram, FaLinkedin, FaPinterest } from "react-icons/fa";
-import { SiAdobeaftereffects, SiAdobeillustrator, SiAdobepremierepro, SiAdobephotoshop, SiCanva } from "react-icons/si";
 import { FiArrowRight, FiMail, FiPhone, FiMapPin, FiSend } from "react-icons/fi";
 import { Video, Palette, Monitor } from "lucide-react";
 import profileImg from "@assets/2.png";
