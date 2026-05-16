@@ -4,8 +4,8 @@ import { Link } from "wouter";
 import { FaInstagram, FaLinkedin, FaPinterest } from "react-icons/fa";
 import { FiArrowRight, FiMail, FiPhone, FiMapPin, FiSend } from "react-icons/fi";
 import { Video, Palette, Monitor } from "lucide-react";
-import profileImg from "@assets/2.png";
-import aboutImg from "@assets/3.png";
+import profileImg from "@assets/PP1.webp";
+import aboutImg from "@assets/PP2.webp";
 import aeLogo from "@assets/AE_1778679475633.png";
 import aiLogo from "@assets/AI_1778679475633.png";
 import prLogo from "@assets/PR_1778679475634.png";
@@ -187,7 +187,7 @@ export default function Home() {
                       y: { delay: i * 0.5, duration: 3 + i, repeat: Infinity, ease: "easeInOut" }
                     }}
                   >
-                    <span className="inline-flex items-center gap-2 px-4 py-2 bg-white/95 backdrop-blur-sm text-dark-green text-sm font-semibold rounded-full shadow-xl border border-white/50">
+                    <span className="inline-flex items-center gap-2 px-4 py-2 bg-white/95 backdrop-blur-sm text-dark-green text-sm font-semibold rounded-full shadow-xl border border-white/50 pl-[16px] pr-[16px]">
                       <span className="w-2 h-2 rounded-full bg-gold" />
                       {badge.label}
                     </span>
