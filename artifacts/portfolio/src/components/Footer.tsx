@@ -61,7 +61,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3 text-cream/60 text-sm">
                 <FiPhone className="text-gold shrink-0" />
-                <span>+62 812 3456 7890</span>
+                <span>+62 </span>
               </li>
               <li className="flex items-center gap-3 text-cream/60 text-sm">
                 <FiMapPin className="text-gold shrink-0" />
@@ -92,7 +92,7 @@ export function Footer() {
 
         <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-cream/40 text-sm">
-            © 2024 Agung Maghribi. All rights reserved.
+            © 2026 Agung Maghribi. All rights reserved.
           </p>
           <div className="flex gap-6">
             <Link href="/projects/video-editing" className="text-cream/40 hover:text-gold text-sm transition-colors">

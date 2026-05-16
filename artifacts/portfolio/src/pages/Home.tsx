@@ -32,15 +32,15 @@ const tools = [
 ];
 
 const floatingBadges = [
-  { label: "UI/UX Designer", top: "10%", right: "-5%" },
-  { label: "Videographer", top: "50%", right: "-12%" },
-  { label: "Video Editor", bottom: "15%", left: "-10%" },
+  { label: "Video Editor", top: "15%", right: "-10%" },
+  { label: "UI Designer", top: "60%", right: "-12%" },
+  { label: "Graphic designer", bottom: "55%", left: "-18%" },
 ];
 
 const stats = [
-  { value: "3+", label: "Years Experience" },
-  { value: "50+", label: "Projects Done" },
-  { value: "20+", label: "Happy Clients" },
+  { value: "4+", label: "Years Experience" },
+  { value: "100+", label: "Projects Done" },
+  { value: "50+", label: "Happy Clients" },
 ];
 
 export default function Home() {
@@ -81,22 +81,19 @@ export default function Home() {
                 data-testid="hero-heading"
               >
                 I'm{" "}
-                <span className="text-gold italic">Agung Maghribi</span>{" "}
-                <span className="block mt-1">Video Editor,</span>
-                <span className="block">&amp; Graphic Designer.</span>
-                <span className="block text-4xl md:text-5xl lg:text-5xl mt-2 font-medium text-dark-green/70">
-                  Based in Yogyakarta.
-                </span>
+                  <span className="text-gold italic">Agung Maghribi</span>{" "}
+                  <span className="block mt-1">Creative Visual Specialist</span>
+                  <span className="block text-4xl md:text-5xl lg:text-5xl mt-2 font-medium text-dark-green/70">
+                    Based in Yogyakarta.
+                  </span>
               </motion.h1>
 
               <motion.p
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
-                className="text-dark-green/60 text-lg leading-relaxed mb-10 max-w-lg"
-              >
-                I craft compelling visual stories through motion, design, and digital experience. With 3+ years of experience in video editing, graphic design, and UI/UX, I turn ideas into premium creative work.
-              </motion.p>
+                className="text-dark-green/60 text-lg leading-relaxed mb-10 max-w-lg pl-[0px] pr-[0px] mr-[0px]"
+              >I’m a creative visual professional with 5+ years of experience in video editing, videography, and graphic design. Passionate about turning ideas into impactful and engaging visual content.</motion.p>
 
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
@@ -281,10 +278,13 @@ export default function Home() {
                 <em className="text-gold not-italic">Agung?</em>
               </h2>
               <p className="text-cream/70 leading-relaxed mb-4">
-                I am a Video Editor, Videographer, and Graphic Designer focused on creating engaging and impactful creative solutions. With 3+ years of experience crafting projects from concept to completion, I am dedicated to producing work that inspires and delivers.
+                I’m Agung Nur Maghribi, a creative visual professional focused on video editing, videography, and graphic design. For the past 5 years, I have been helping brands, businesses, and content creators create visual content that is engaging, professional, and easy for audiences to connect with.
               </p>
               <p className="text-cream/70 leading-relaxed mb-10">
-                Based in Yogyakarta, I work with brands, startups, and agencies to bring their visual stories to life — through motion, print, and digital design. My approach combines technical precision with an editorial eye for aesthetics.
+                I enjoy turning ideas into visuals with clear stories and purpose. From concept development and production to final editing, I always aim to create work that not only looks good but also communicates the message effectively.
+                </p>
+                <p className="text-cream/70 leading-relaxed mb-10 mt-[-20px]">
+                Based in Yogyakarta, I believe that strong visuals can help a brand stand out and build a closer connection with its audience.
               </p>
 
               <div className="grid grid-cols-3 gap-6 mb-10">
@@ -397,7 +397,6 @@ export default function Home() {
             >
               {[
                 { icon: <FiMail />, label: "Email", value: "agungmaghribi1009@gmail.com" },
-                { icon: <FiPhone />, label: "Phone", value: "+62 812 3456 7890" },
                 { icon: <FiMapPin />, label: "Location", value: "Yogyakarta, Indonesia" },
               ].map((item) => (
                 <div key={item.label} className="flex items-center gap-5" data-testid={`contact-${item.label.toLowerCase()}`}>
