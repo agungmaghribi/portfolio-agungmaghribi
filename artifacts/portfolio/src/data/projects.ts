@@ -65,7 +65,7 @@ export const reelsProjects = [
   {
     id: 3,
     title: "Coffee Shop Vibes",
-    thumbnail: "https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=600&q=80",
+    thumbnail: "/rel3.webp",
     url: "https://instagram.com/reel/dummy3",
   },
   {
