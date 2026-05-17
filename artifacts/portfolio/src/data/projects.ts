@@ -53,13 +53,13 @@ export const reelsProjects = [
   {
     id: 1,
     title: "Street Style Reels",
-    thumbnail: "/src/assets/rel2.webp",
+    thumbnail: "/rel1.webp",
     url: "https://instagram.com/reel/dummy1",
   },
   {
     id: 2,
     title: "Morning Routine",
-    thumbnail: "/src/assets/rel2.webp",
+    thumbnail: "/rel2.webp",
     url: "https://instagram.com/reel/dummy2",
   },
   {
