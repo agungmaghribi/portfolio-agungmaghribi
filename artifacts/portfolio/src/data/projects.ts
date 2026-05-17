@@ -102,7 +102,7 @@ export const reelsProjects = [
     id: 10,
     title: "Street Style Reels",
     thumbnail: "/rel9.webp",
-    url: "https://www.instagram.com/reel/DNmZBl8Se3w/",
+    url: "https://www.instagram.com/reel/CuX_b6AMR6m/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   },
   {
     id: 11,
@@ -143,7 +143,7 @@ export const reelsProjects = [
     id: 17,
     title: "Morning Routine",
     thumbnail: "/rel22.webp",
-    url: "https://www.instagram.com/fast.uad/reel/Cutmrl7tZJ2/",
+    url: "https://www.instagram.com/reel/DQs6TWrCeo7/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   },
   {
     id: 18,
@@ -155,7 +155,7 @@ export const reelsProjects = [
     id: 19,
     title: "Street Style Reels",
     thumbnail: "/rel8.webp",
-    url: "https://www.instagram.com/reel/DKZTh4up18r/",
+    url: "https://www.instagram.com/reel/DQ4IvxhCbQ9/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   },
   {
     id: 20,
@@ -179,13 +179,13 @@ export const reelsProjects = [
     id: 23,
     title: "Morning Routine",
     thumbnail: "/rel2.webp",
-    url: "https://www.instagram.com/reel/DMjy-EHx5PR/",
+    url: "https://www.instagram.com/reel/C_5nqoayUjd/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   },
   {
     id: 24,
     title: "Coffee Shop Vibes",
     thumbnail: "/rel15.webp",
-    url: "https://www.instagram.com/reel/DMjy-EHx5PR/",
+    url: "https://www.instagram.com/reel/DEpOjP0S5GZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   },
   {
     id: 25,
@@ -238,8 +238,8 @@ export const reelsProjects = [
 ];
 
 export const graphicDesignProjects = [
-  { id: 1, src: "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&q=80", category: "Poster" },
-  { id: 2, src: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&q=80", category: "Social Media" },
+  { id: 1, src: "/poster1.webp", category: "Poster" },
+  { id: 2, src: "/poster1", category: "Social Media" },
   { id: 3, src: "https://images.unsplash.com/photo-1583847268964-b28ce8f31161?w=800&q=80", category: "Branding" },
   { id: 4, src: "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?w=800&q=80", category: "Banner" },
   { id: 5, src: "https://images.unsplash.com/photo-1626126525124-749e7af753a4?w=800&q=80", category: "Poster" },
