@@ -338,7 +338,7 @@ export default function Home() {
       <section id="projects" className="py-24 bg-cream">
         <div className="max-w-7xl mx-auto px-6">
           <SectionTitle title="My Latest Projects" subtitle="My Portfolio" />
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
             <ProjectCard
               title="Video Editing & Videography"
               category="Motion"
@@ -360,29 +360,6 @@ export default function Home() {
               href="/projects/ui-design"
               delay={0.2}
             />
-            <motion.div
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.3 }}
-              className="group relative rounded-3xl overflow-hidden h-[400px] w-full bg-dark-green flex flex-col justify-between p-8 border border-gold/20 hover:border-gold/50 transition-colors duration-300"
-            >
-              <div className="w-12 h-12 rounded-full bg-gold/15 border border-gold/30 flex items-center justify-center">
-                <span className="text-gold text-xl font-bold">©</span>
-              </div>
-              <div>
-                <span className="text-gold/60 text-xs font-semibold tracking-widest uppercase block mb-3">Legal</span>
-                <h3 className="font-heading text-2xl font-semibold text-cream mb-6 group-hover:text-gold transition-colors duration-300 leading-snug">
-                  Intellectual Property Rights
-                </h3>
-                <a
-                  href="#"
-                  className="inline-flex items-center gap-2 px-5 py-2.5 bg-gold text-white text-sm font-semibold rounded-full hover:bg-white hover:text-dark-green transition-all duration-300"
-                >
-                  Lihat Detail ↗
-                </a>
-              </div>
-            </motion.div>
           </div>
         </div>
       </section>
