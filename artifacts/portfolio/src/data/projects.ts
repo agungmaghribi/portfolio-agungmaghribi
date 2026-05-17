@@ -238,12 +238,29 @@ export const reelsProjects = [
 ];
 
 export const graphicDesignProjects = [
-  { id: 1, src: "/poster1.webp", category: "Poster" },
-  { id: 2, src: "/poster1", category: "Social Media" },
-  { id: 3, src: "https://images.unsplash.com/photo-1583847268964-b28ce8f31161?w=800&q=80", category: "Branding" },
-  { id: 4, src: "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?w=800&q=80", category: "Banner" },
-  { id: 5, src: "https://images.unsplash.com/photo-1626126525124-749e7af753a4?w=800&q=80", category: "Poster" },
-  { id: 6, src: "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=800&q=80", category: "Social Media" },
+  { id: 1, src: "/poster%201.webp", category: "Poster" },
+  { id: 2, src: "/poster%202.webp", category: "Poster" },
+  { id: 3, src: "/poster%203.webp", category: "Poster" },
+  { id: 4, src: "/poster%204.webp", category: "Poster" },
+  { id: 5, src: "/poster%205.webp", category: "Poster" },
+  { id: 6, src: "/poster%206.webp", category: "Poster" },
+  { id: 7, src: "/poster%207.webp", category: "Poster" },
+  { id: 8, src: "/poster%208.webp", category: "Poster" },
+  { id: 9, src: "/poster%209.webp", category: "Poster" },
+  { id: 10, src: "/poster%2010.webp", category: "Poster" },
+  { id: 11, src: "/poster%2011.webp", category: "Poster" },
+   { id: 13, src: "/poster%2012.webp", category: "Poster" },
+   { id: 14, src: "/poster%2013.webp", category: "Poster" },
+   { id: 15, src: "/poster%2014.webp", category: "Poster" },
+   { id: 16, src: "/poster%2015.webp", category: "Poster" },
+   { id: 17, src: "/poster%2016.webp", category: "Poster" },
+   { id: 18, src: "/poster%2017.webp", category: "Poster" },
+   { id: 19, src: "/poster%2018.webp", category: "Poster" },
+  
+  { id: 20, src: "/poster%202.webp", category: "Social Media" },
+  { id: 21, src: "https://images.unsplash.com/photo-1583847268964-b28ce8f31161?w=800&q=80", category: "Branding" },
+  { id: 22, src: "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?w=800&q=80", category: "Banner" },
+  { id: 23, src: "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=800&q=80", category: "Social Media" },
 ];
 
 export const uiDesignProjects = [
