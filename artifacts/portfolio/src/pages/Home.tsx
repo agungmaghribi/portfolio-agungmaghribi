@@ -39,7 +39,7 @@ const floatingBadges = [
 ];
 
 const stats = [
-  { value: "4+", label: "Years Experience" },
+  { value: "5+", label: "Years Experience" },
   { value: "100+", label: "Projects Done" },
   { value: "50+", label: "Happy Clients" },
 ];
