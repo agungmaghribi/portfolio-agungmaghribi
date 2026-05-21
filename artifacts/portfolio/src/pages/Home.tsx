@@ -6,6 +6,7 @@ import { FiArrowRight, FiMail, FiPhone, FiMapPin, FiSend } from "react-icons/fi"
 import { Video, Palette, Monitor } from "lucide-react";
 import profileImg from "@assets/PP1.webp";
 import aboutImg from "@assets/PP2.webp";
+import hkiImg from "@assets/hki_1_1779387107236.webp";
 import aeLogo from "@assets/AE_1778679475633.png";
 import aiLogo from "@assets/AI_1778679475633.png";
 import prLogo from "@assets/PR_1778679475634.png";
@@ -363,7 +364,7 @@ export default function Home() {
             <ProjectCard
               title="Intellectual Property Rights"
               category="Letter"
-              image="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=800&q=80"
+              image={hkiImg}
               href="/projects/ip-rights"
               delay={0.3}
             />
