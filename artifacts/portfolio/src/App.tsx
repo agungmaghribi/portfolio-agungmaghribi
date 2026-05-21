@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import VideoEditing from "./pages/VideoEditing";
 import GraphicDesign from "./pages/GraphicDesign";
 import UIDesign from "./pages/UIDesign";
+import IPRights from "./pages/IPRights";
 import NotFound from "./pages/not-found";
 
 const pageVariants = {
@@ -56,6 +57,13 @@ function Router() {
           {() => (
             <AnimatedPage>
               <UIDesign />
+            </AnimatedPage>
+          )}
+        </Route>
+        <Route path="/projects/ip-rights">
+          {() => (
+            <AnimatedPage>
+              <IPRights />
             </AnimatedPage>
           )}
         </Route>
