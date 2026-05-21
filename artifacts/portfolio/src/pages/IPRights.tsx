@@ -7,7 +7,7 @@ const hkiData = [
     id: "01",
     title: "Video Profil Riset Pengembangan Sistem Peringatan Dini Mitigasi Bencana Pergerakan Tanah Terkoneksi Web berbasis Analisis Sensor Akselerometer 3-Sumbu",
     code: "EC00202169316",
-    link: "https://pdki-indonesia.dgip.go.id/detail/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    link: "https://pdki-indonesia.dgip.go.id/",
   },
   {
     id: "02",
