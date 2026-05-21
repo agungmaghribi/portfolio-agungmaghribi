@@ -338,7 +338,7 @@ export default function Home() {
       <section id="projects" className="py-24 bg-cream">
         <div className="max-w-7xl mx-auto px-6">
           <SectionTitle title="My Latest Projects" subtitle="My Portfolio" />
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
             <ProjectCard
               title="Video Editing & Videography"
               category="Motion"
@@ -359,6 +359,13 @@ export default function Home() {
               image="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=80"
               href="/projects/ui-design"
               delay={0.2}
+            />
+            <ProjectCard
+              title="Intellectual Property Rights"
+              category="Letter"
+              image="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=800&q=80"
+              href="/projects/ip-rights"
+              delay={0.3}
             />
           </div>
         </div>

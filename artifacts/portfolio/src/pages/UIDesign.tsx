@@ -41,7 +41,7 @@ export default function UIDesign() {
         >
           <span className="text-gold text-sm font-medium tracking-widest uppercase block mb-4">My Work</span>
           <h1 className="font-heading text-5xl md:text-6xl font-bold text-dark-green leading-tight">
-            UI <em className="text-gold">Design</em>
+            Intellectual <em className="text-gold"> Property Rights</em>
           </h1>
           <p className="mt-6 text-dark-green/60 max-w-xl leading-relaxed">
             Digital interfaces crafted with purpose — mobile apps, web dashboards, landing pages, and wireframe explorations. Clean, intuitive, and beautiful.
