@@ -258,16 +258,26 @@ export const graphicDesignProjects = [
    { id: 19, src: "/poster%2018.webp", category: "Poster" },
   
   { id: 20, src: "/poster%202.webp", category: "Social Media" },
-  { id: 21, src: "https://images.unsplash.com/photo-1583847268964-b28ce8f31161?w=800&q=80", category: "Branding" },
-  { id: 22, src: "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?w=800&q=80", category: "Banner" },
+  
+  { id: 51, src: "/Branding%201.webp", category: "Branding" },
+  { id: 52, src: "/Branding%203.webp", category: "Branding" },
+  { id: 53, src: "/Branding%204.webp", category: "Branding" },
+  
+  { id: 61, src: "/Banner%201.webp", category: "Banner" },
+  { id: 62, src: "/Banner%202.webp", category: "Banner" },
+  { id: 63, src: "/Banner%203.webp", category: "Banner" },
+  { id: 64, src: "/Banner%204.webp", category: "Banner" },
+  { id: 65, src: "/Banner%205.webp", category: "Banner" },
+  { id: 66, src: "/Banner%206.webp", category: "Banner" },
+  { id: 67, src: "/Banner%207.webp", category: "Banner" },
+  { id: 68, src: "/Banner%208.webp", category: "Banner" },
+  
   { id: 23, src: "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=800&q=80", category: "Social Media" },
 ];
 
 export const uiDesignProjects = [
-  { id: 1, src: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=80", category: "Mobile App" },
-  { id: 2, src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80", category: "Dashboard" },
-  { id: 3, src: "https://images.unsplash.com/photo-1507238692062-5a0423086b9b?w=800&q=80", category: "Landing Page" },
-  { id: 4, src: "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=800&q=80", category: "Wireframe" },
+  { id: 1, src: "/User%20Interface%20Designer.webp", category: "Mobile App" },
+  
 ];
 
 export const testimonials = [
